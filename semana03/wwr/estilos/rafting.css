@@ -1,0 +1,49 @@
+:root {
+       --cor-primaria: #055a05;
+       /* Verde floresta */
+       --cor-secundaria: #f4a261;
+       /* Bege médio */
+       --cor-destaque1: #264653;
+       /* Azul-escuro acinzentado */
+       --cor-destaque2: #e9c46a;
+       /* Amarelo-claro dourado */
+       --fonte-titulo: "Times New Roman", "Georgia", serif;
+       --fonte-body: Arial, Helvetica, sans-serif;
+}
+
+* {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+
+body {
+       font-family: var(--fonte-body);
+       color: var(--cor-destaque1);
+}
+
+header,
+main,
+footer {
+       width: 840px;
+       margin: 0 auto;
+}
+
+h1,
+h2 {
+       font-family: var(--fonte-titulo);
+       color: var(--cor-primaria);
+       text-align: center;
+}
+
+nav,
+p,
+section,
+article {
+       margin: 16px;
+       padding: 8px;
+}
+
+.redes-sociais a {
+       text-decoration: none;
+}
